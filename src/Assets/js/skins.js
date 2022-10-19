@@ -42,7 +42,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active ,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
  {
 	background-color: #ff5d56;
@@ -121,7 +120,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
 {
 	background-color: #daa520;
@@ -201,7 +199,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
 {
 	background-color: #72b626;
@@ -281,7 +278,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
 {
 	background-color: #ff00ff;
@@ -362,7 +358,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
 {
 	background-color: #fa5b0f;
@@ -442,7 +437,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
 {
 	background-color: #9acd32;
@@ -524,7 +518,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
 {
 	background-color: #2196F3;
@@ -605,7 +598,6 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
 .personal-info:before
  {
     background-color: #ffb400;

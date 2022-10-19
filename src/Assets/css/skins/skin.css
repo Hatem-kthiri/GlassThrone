@@ -37,7 +37,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn {
+.personal-info:before {
     background-color: #ffb400;
 }
 .chart-bar > .item-progress {
