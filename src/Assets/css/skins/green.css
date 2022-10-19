@@ -41,7 +41,8 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before {
+.personal-info:before,
+::-webkit-scrollbar-thumb {
     background-color: #72b626;
 }
 .portfolios .portfolio-item .hover-items {
