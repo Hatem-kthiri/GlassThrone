@@ -34,7 +34,6 @@ const hideSwitcher = () => {
     document.getElementById("showSwitcher").style.display = "block";
 };
 const ChangeColor = (color) => {
-    var styleTag = document.querySelector("style");
     localStorage.setItem("color", `${color}`);
     var head = document.querySelector("head");
     var style = document.createElement("style");

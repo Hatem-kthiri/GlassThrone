@@ -33,12 +33,12 @@ import {
     yellowgreen,
 } from "./Assets/js/skins";
 function App() {
-    useEffect(() => {
-        if (localStorage.getItem("color")) {
-            document.getElementsByTagName("style")[3].innerHTML =
-                localStorage.getItem("color");
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (localStorage.getItem("color")) {
+    //         document.getElementsByTagName("style")[3].innerHTML =
+    //             localStorage.getItem("color");
+    //     }
+    // }, []);
 
     return (
         <div className="">
