@@ -34,20 +34,19 @@ const hideSwitcher = () => {
     document.getElementById("showSwitcher").style.display = "block";
 };
 const ChangeColor = (color) => {
-    document.getElementsByTagName("style")[3].innerHTML = color;
+    // document.getElementsByTagName("style")[3].innerHTML = color;
     localStorage.setItem("color", `${color}`);
     var head = document.querySelector("head");
 
     console.log(head.children);
+    var style = document.createElement("style");
+    style.append(color);
+    head.append(style);
     for (let i = 0; i < head.children.length; i++) {
         if (head.children[i].innerHTML.includes(color)) {
             console.log(head.children[i]);
         }
     }
-
-    // var style = document.createElement("style");
-    // style.append(color);
-    // head.append(style);
 };
 module.exports = {
     ChangeColor,
