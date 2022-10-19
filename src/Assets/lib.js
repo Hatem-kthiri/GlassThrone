@@ -36,7 +36,7 @@ const hideSwitcher = () => {
 const ChangeColor = (color) => {
     document.getElementsByTagName("style")[3].innerHTML = color;
     localStorage.setItem("color", `${color}`);
-    console.log(document.getElementsByTagName("style")[3]);;
+    console.log(document.getElementsByTagName("style"));
 };
 module.exports = {
     ChangeColor,
