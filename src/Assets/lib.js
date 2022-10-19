@@ -1,13 +1,13 @@
 const toggle = () => {
     document
-        .querySelector(".cd-stretchy-nav")
+        .querySelector(".stretchy-navigation")
         .getAttribute("class")
         .includes("nav-is-visible")
         ? document
-              .querySelector(".cd-stretchy-nav")
+              .querySelector(".stretchy-navigation")
               .classList.remove("nav-is-visible")
         : document
-              .querySelector(".cd-stretchy-nav")
+              .querySelector(".stretchy-navigation")
               .classList.add("nav-is-visible");
 };
 const ComponentActive = (ComponentId) => {
@@ -16,7 +16,7 @@ const ComponentActive = (ComponentId) => {
     document.getElementById(`nav-${ComponentId}`).classList.add("active");
 
     document
-        .querySelector(".cd-stretchy-nav")
+        .querySelector(".stretchy-navigation")
         .classList.remove("nav-is-visible");
 
     document
@@ -24,7 +24,6 @@ const ComponentActive = (ComponentId) => {
         .forEach((section) => section.classList.remove("active"));
     document.getElementById(ComponentId).classList.add("active");
 };
-const MobileComponentActive = (ComponentId) => {};
 
 const cogToggle = () => {
     document.getElementById("switcher").style.display = "block";
@@ -34,10 +33,14 @@ const hideSwitcher = () => {
     document.getElementById("switcher").style.display = "none";
     document.getElementById("showSwitcher").style.display = "block";
 };
+const ChangeColor = (color) => {
+    document.getElementsByTagName("style")[3].innerHTML = color;
+    localStorage.setItem("color", `${color}`);
+};
 module.exports = {
+    ChangeColor,
     hideSwitcher,
     cogToggle,
     toggle,
     ComponentActive,
-    MobileComponentActive,
 };

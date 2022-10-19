@@ -1,5 +1,5 @@
 /* =================================================================== */
-/* YELLOW #ffb400
+/* MAGENTA #ff00ff
 ====================================================================== */
 .nav-container > div > ul li.active a,
 .nav-container > div > ul li:hover a,
@@ -15,10 +15,7 @@ body.dark.blog article a h4:hover,
 .blog article h4:hover,
 .contact-container ul.social-intro li a,
 .chart-bar > .percent {
-    color: #ffb400;
-}
-.chart-bar > .item-progress {
-    background: linear-gradient(to right, #ffd673, #ffb400, #7c6a0a);
+    color: #ff00ff;
 }
 .stretchy-navigation.nav-is-visible ul li.active a,
 .main-title h2 span:nth-child(1),
@@ -27,9 +24,11 @@ body.dark.blog article a h4:hover,
 .stretchy-navigation.nav-is-visible ul li.active a span,
 .stretchy-navigation.nav-is-visible ul li a:hover,
 .stretchy-navigation.nav-is-visible ul li a:hover span {
-    color: #ffb400 !important;
+    color: #ff00ff !important;
 }
-
+.chart-bar > .item-progress {
+    background: linear-gradient(to right, #ff00ff, #ce29ce, #811081);
+}
 .stretchy-navigation ul a:before,
 .nav-container > div > ul li:not(:last-child):hover:after,
 body.dark .nav-container > div > ul li:not(:last-child):hover:after,
@@ -44,35 +43,37 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 section#blog .post-date,
 .btn,
 .personal-info:before {
-    background-color: #ffb400;
+    background-color: #ff00ff;
 }
+
 .portfolios .portfolio-item .hover-items {
-    background-color: #ffb400 !important;
-}
-.chart-bar > .item-progress {
-    background: linear-gradient(to right, #ffb400, #ffd673, #ffd500);
+    background-color: #ff00ff !important;
 }
 
 .contact-container ul.social-intro li a,
 .btn.btn-secondary,
 .btn.btn-secondary:focus,
 .chart-bar > .percent {
-    border: 1px solid #ffb400;
+    border: 1px solid #ff00ff;
 }
 
 .arrow {
-    border: 1px solid #ffb400;
+    border: 1px solid #ff00ff;
     border-width: 0 1px 1px 0;
+}
+
+.personal-info .image-container:before {
+    border: 6px solid #ff00ff;
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active,
 .btn-secondary:not(:disabled):not(.disabled):active {
-    border-color: #ffb400;
+    border-color: #ff00ff;
 }
 
 #portfolio-items li a div,
 .timeline-yr,
 .timeline-wrapper:before,
 .custom-btn.custom-btn-bg:hover {
-    background: #ffb400 !important;
+    background: #ff00ff !important;
 }

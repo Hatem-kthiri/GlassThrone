@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-const Cv = () => {
+const Resume = () => {
     return (
         <section
             className="resume py-5 d-lg-flex justify-content-center align-items-center"
@@ -13,7 +13,7 @@ const Cv = () => {
                         <div className="timeline">
                             <div className="timeline-wrapper">
                                 <div className="timeline-yr">
-                                    <span>2045</span>
+                                    <span>2020</span>
                                 </div>
                                 <div className="timeline-info">
                                     <h3>
@@ -21,16 +21,18 @@ const Cv = () => {
                                         <small>Best Studio</small>
                                     </h3>
                                     <p>
-                                        Proin ornare non purus ut rutrum. Nulla
-                                        facilisi. Aliquam laoreet libero ac
-                                        pharetra feugiat. Cras ac fermentum
-                                        nunc, a faucibus nunc.
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam facere odio
+                                        nemo asperiores veniam vitae dolores
+                                        itaque quas? Nihil quae aspernatur minus
+                                        obcaecati amet tempore ratione ea
+                                        exercitationem, sit atque?
                                     </p>
                                 </div>
                             </div>
                             <div className="timeline-wrapper">
                                 <div className="timeline-yr">
-                                    <span>2045</span>
+                                    <span>2018</span>
                                 </div>
                                 <div className="timeline-info">
                                     <h3>
@@ -38,9 +40,12 @@ const Cv = () => {
                                         <small>Digital Ace</small>
                                     </h3>
                                     <p>
-                                        Fusce rutrum augue id orci rhoncus
-                                        molestie. Nunc auctor dignissim lacus
-                                        vel iaculis.
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam facere odio
+                                        nemo asperiores veniam vitae dolores
+                                        itaque quas? Nihil quae aspernatur minus
+                                        obcaecati amet tempore ratione ea
+                                        exercitationem, sit atque?
                                     </p>
                                 </div>
                             </div>
@@ -53,11 +58,12 @@ const Cv = () => {
                                         <span>UI Freelancer</span>
                                     </h3>
                                     <p>
-                                        Sed fringilla vitae enim sit amet
-                                        cursus. Sed cursus dictum tortor quis
-                                        pharetra. Pellentesque habitant morbi
-                                        tristique senectus et netus et malesuada
-                                        fames ac turpis egestas.
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam facere odio
+                                        nemo asperiores veniam vitae dolores
+                                        itaque quas? Nihil quae aspernatur minus
+                                        obcaecati amet tempore ratione ea
+                                        exercitationem, sit atque?
                                     </p>
                                 </div>
                             </div>
@@ -71,10 +77,12 @@ const Cv = () => {
                                         <small>Crafted Co.</small>
                                     </h3>
                                     <p>
-                                        Cras scelerisque scelerisque
-                                        condimentum. Nullam at volutpat mi. Nunc
-                                        auctor ipsum eget magna consequat
-                                        viverra.
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam facere odio
+                                        nemo asperiores veniam vitae dolores
+                                        itaque quas? Nihil quae aspernatur minus
+                                        obcaecati amet tempore ratione ea
+                                        exercitationem, sit atque?
                                     </p>
                                 </div>
                             </div>
@@ -95,9 +103,12 @@ const Cv = () => {
                                         <small>Master Design</small>
                                     </h3>
                                     <p>
-                                        Please tell your friends about Tooplate
-                                        website. That would be very helpful. We
-                                        need your support.
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam facere odio
+                                        nemo asperiores veniam vitae dolores
+                                        itaque quas? Nihil quae aspernatur minus
+                                        obcaecati amet tempore ratione ea
+                                        exercitationem, sit atque?
                                     </p>
                                 </div>
                             </div>
@@ -111,9 +122,12 @@ const Cv = () => {
                                         <small>Creative Agency</small>
                                     </h3>
                                     <p>
-                                        Tooplate is a great website to download
-                                        HTML templates without any login or
-                                        email.
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam facere odio
+                                        nemo asperiores veniam vitae dolores
+                                        itaque quas? Nihil quae aspernatur minus
+                                        obcaecati amet tempore ratione ea
+                                        exercitationem, sit atque?
                                     </p>
                                 </div>
                             </div>
@@ -127,10 +141,12 @@ const Cv = () => {
                                         <small>New Art School</small>
                                     </h3>
                                     <p>
-                                        You can freely use Tooplate's templates
-                                        for your business or personal sites.
-                                        Suspendisse sollicitudin libero et
-                                        tincidunt scelerisque.
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam facere odio
+                                        nemo asperiores veniam vitae dolores
+                                        itaque quas? Nihil quae aspernatur minus
+                                        obcaecati amet tempore ratione ea
+                                        exercitationem, sit atque?
                                     </p>
                                 </div>
                             </div>
@@ -142,4 +158,4 @@ const Cv = () => {
     );
 };
 
-export default Cv;
+export default Resume;

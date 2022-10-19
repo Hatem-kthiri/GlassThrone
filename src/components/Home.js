@@ -13,6 +13,7 @@ const Home = () => {
                             {" "}
                             <Typed
                                 strings={[
+                                    "Virginia Burge",
                                     "Web Design",
                                     "UI/UX Design",
                                     "Web Development",
@@ -33,32 +34,16 @@ const Home = () => {
                         skills include PHP, Laravel, jQuery, database design,
                         JavaScript and MySQL.
                     </p>
-                    {/* <div className="call-to-actions-home">
-                        <div className="text-left">
-                            <a href="#about" className="btn link-portfolio-one">
-                                <span>
-                                    <i className="fa fa-user" />
-                                    more about me
-                                </span>
-                            </a>
-                            <a
-                                href="#work"
-                                className="btn btn-secondary link-portfolio-two"
-                            >
-                                <span>
-                                    <i className="fa fa-suitcase" />
-                                    portfolio
-                                </span>
-                            </a>
-                        </div>
-                    </div> */}
-                    <div class="custom-btn-group mt-4">
-                        <a href="#" class="btn mr-lg-2 custom-btn">
+
+                    <div className="custom-btn-group mt-4">
+                        {/* eslint-disable-next-line */}
+                        <a href="#" className="btn mr-lg-2 custom-btn">
                             <i className="fa fa-suitcase" /> Download Resume
                         </a>{" "}
+                        {/* eslint-disable-next-line */}
                         <a
                             href="#"
-                            class="btn custom-btn custom-btn-bg custom-btn-link"
+                            className="btn custom-btn custom-btn-bg custom-btn-link"
                         >
                             Get a free quote
                         </a>

@@ -11,8 +11,7 @@ const Contact = () => {
                     </h2>
                 </div>
                 <p className="port-text">
-                    I’m always open to discussing product design work or
-                    partnerships.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <div className="container">
                     <div className="row contact">

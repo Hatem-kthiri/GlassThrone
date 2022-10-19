@@ -1,80 +1,11 @@
 import React from "react";
 
-const Header = ({ toggle, MobileComponentActive, ComponentActive }) => {
+const Header = ({ toggle, ComponentActive }) => {
     return (
         <header id="header">
-            <div className="nav-container">
-                <div>
-                    <ul id="nav" className="navigation">
-                        <li
-                            className="active"
-                            id="link-home"
-                            onClick={() => MobileComponentActive("link-home")}
-                        >
-                            <div>
-                                {/* eslint-disable-next-line */}
-                                <a id="link-home" href="#" className="active">
-                                    <i className="fa fa-home" />
-                                    <span>Home</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li className="" id="link-about">
-                            <div>
-                                {/* eslint-disable-next-line */}
-                                <a href="#" className="">
-                                    <i className="fa fa-user" />
-                                    <span>About me</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li
-                            className=""
-                            id="link-work"
-                            onClick={() => MobileComponentActive("link-work")}
-                        >
-                            <div>
-                                {/* eslint-disable-next-line */}
-                                <a id="link-work" href="#" className="">
-                                    <i className="fa fa-briefcase" />
-                                    <span>my Portfolio</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li
-                            className=""
-                            id="link-contact"
-                            onClick={() =>
-                                MobileComponentActive("link-contact")
-                            }
-                        >
-                            <div>
-                                {/* eslint-disable-next-line */}
-                                <a href="#" className="">
-                                    <i className="fa fa-envelope-open" />
-                                    <span>get in touch</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li
-                            className=""
-                            id="link-blog"
-                            onClick={() => MobileComponentActive("link-blog")}
-                        >
-                            <div>
-                                {/* eslint-disable-next-line */}
-                                <a href="#" className="">
-                                    <i className="fa fa-comments" />
-                                    <span>my Blog</span>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className="cd-stretchy-nav">
+            <div className="stretchy-navigation">
                 {/* eslint-disable-next-line */}
-                <a className="cd-nav-trigger" href="#" onClick={toggle}>
+                <a className="nav-trigger" href="#" onClick={toggle}>
                     <span aria-hidden="true" />
                 </a>
                 <ul className="stretchy-nav">

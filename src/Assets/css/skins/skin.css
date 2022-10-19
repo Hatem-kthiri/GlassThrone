@@ -4,6 +4,7 @@
 .nav-container > div > ul li.active a,
 .nav-container > div > ul li:hover a,
 .btn.btn-secondary,
+.back-mobile,
 .projects-info h3,
 .main-text h1 span,
 section#blog article h4:hover,
@@ -17,13 +18,7 @@ body.dark.blog article a h4:hover,
 .chart-bar > .percent {
     color: #ffb400;
 }
-.chart-bar > .item-progress {
-    background: linear-gradient(to right, #ffd673, #ffb400, #7c6a0a);
-}
 .stretchy-navigation.nav-is-visible ul li.active a,
-.main-title h2 span:nth-child(1),
-.timeline-info small,
-.custom-btn:hover,
 .stretchy-navigation.nav-is-visible ul li.active a span,
 .stretchy-navigation.nav-is-visible ul li a:hover,
 .stretchy-navigation.nav-is-visible ul li a:hover span {
@@ -42,15 +37,11 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.btn,
-.personal-info:before {
+.btn {
     background-color: #ffb400;
 }
-.portfolios .portfolio-item .hover-items {
-    background-color: #ffb400 !important;
-}
 .chart-bar > .item-progress {
-    background: linear-gradient(to right, #ffb400, #ffd673, #ffd500);
+    background: linear-gradient(to right, #ffd673, #ffb400, #7c6a0a);
 }
 
 .contact-container ul.social-intro li a,
@@ -70,9 +61,6 @@ section#blog .post-date,
     border-color: #ffb400;
 }
 
-#portfolio-items li a div,
-.timeline-yr,
-.timeline-wrapper:before,
-.custom-btn.custom-btn-bg:hover {
-    background: #ffb400 !important;
+#portfolio-items li a div {
+    background: #ffb400;
 }

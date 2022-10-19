@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 const Portfolio = () => {
+    // eslint-disable-next-line
     const [portfolioItem, setPortfolioItem] = useState([
         {
             image: "port1.jpg",
@@ -62,13 +63,12 @@ const Portfolio = () => {
                     </h2>
                 </div>
                 <p className="port-text">
-                    Here is some of my work that I've done in various
-                    programming languages.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <div className="portfolios">
-                    {portfolioItem.map((item) => {
+                    {portfolioItem.map((item, index) => {
                         return (
-                            <div className="portfolio-item">
+                            <div className="portfolio-item" key={index}>
                                 <div className="image">
                                     <img
                                         src={require(`../Assets/img/projects/${item.image}`)}

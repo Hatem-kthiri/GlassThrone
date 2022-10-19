@@ -1,17 +1,9 @@
 import React from "react";
-import Cv from "./Cv";
+import Resume from "./Resume";
 
 const About = () => {
     return (
         <section id="about" className="">
-            {/* <div className="container page-title text-center">
-                <h2 className="text-center">
-                    about <span>me</span>
-                </h2>
-                <span className="title-head-subtitle">
-                    I design and code beautiful things, and I love what I do.
-                </span>
-            </div> */}
             <div className="main-title">
                 <h2>
                     About <span>Me</span>
@@ -19,7 +11,7 @@ const About = () => {
                 </h2>
             </div>
             <p className="port-text">
-                I design and code beautiful things, and I love what I do.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="container infos">
                 <div className="row personal-info">
@@ -27,7 +19,8 @@ const About = () => {
                         <div className="image-container">
                             <img
                                 className="img-fluid d-block"
-                                src={require("../Assets/img/dark-about.jpg")}
+                                style={{ transform: "scale(1.5)" }}
+                                src={require("../Assets/img/women.png")}
                                 alt=""
                             />
                         </div>
@@ -43,100 +36,100 @@ const About = () => {
                             <ul className="list-1">
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            First Name
+                                        <span className="font-weight-700">
+                                            First Name :
                                         </span>
                                         Virginia
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Last Name
+                                        <span className="font-weight-700">
+                                            Last Name :
                                         </span>
                                         Burge
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Birthdate
+                                        <span className="font-weight-700">
+                                            Birthdate :
                                         </span>
-                                        12 November 1993
+                                        12 Nov 1993
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Nationality
+                                        <span className="font-weight-700">
+                                            Nationality :
                                         </span>
-                                        English
+                                        Americain
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Experience
+                                        <span className="font-weight-700">
+                                            Experience :
                                         </span>
                                         5 years
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Address
+                                        <span className="font-weight-700">
+                                            Address :
                                         </span>
                                         Steuben
                                     </h6>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div>
                             <ul className="list-2">
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Freelance
+                                        <span className="font-weight-700">
+                                            Freelance :
                                         </span>
                                         Available
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Langages
+                                        <span className="font-weight-700">
+                                            Language :
                                         </span>
                                         English
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Phone
+                                        <span className="font-weight-700">
+                                            Phone :
                                         </span>
                                         +01 608-476-7128
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Email
+                                        <span className="font-weight-700">
+                                            Email :
                                         </span>
-                                        yourEmail@mail.com
+                                        youremail@mail.com
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Skype
+                                        <span className="font-weight-700">
+                                            Skype :
                                         </span>
                                         Virginia.Burge
                                     </h6>
                                 </li>
                                 <li>
                                     <h6>
-                                        <span className="font-weight-600">
-                                            Dribbble
+                                        <span className="font-weight-700">
+                                            Dribbble :
                                         </span>
                                         Virginia.dribbble
                                     </h6>
@@ -151,10 +144,10 @@ const About = () => {
             </div>
             <div className="resume-container">
                 <div className="container">
-                    <Cv />
+                    <Resume />
                     <div className="row">
                         <div className="col-12">
-                            <h2 className="font-weight-600 uppercase title-section skills-title">
+                            <h2 className="font-weight-700 uppercase title-section skills-title">
                                 skills
                             </h2>
                         </div>

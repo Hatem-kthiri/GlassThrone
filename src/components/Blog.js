@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const Blog = () => {
+    // eslint-disable-next-line
     const [blogs, setBlogs] = useState([
         {
             image: "blog-post-1.jpg",
@@ -44,14 +45,13 @@ const Blog = () => {
                 </h2>
             </div>
             <p className="port-text">
-                tips, insights, and best practices about web design and
-                developpment.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="container">
                 <div className="row">
-                    {blogs.map((blog) => {
+                    {blogs.map((blog, index) => {
                         return (
-                            <div className="col-12 col-sm-6">
+                            <div className="col-12 col-sm-6" key={index}>
                                 <article>
                                     <figure className="blog-figure">
                                         {/* eslint-disable-next-line */}
