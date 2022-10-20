@@ -1,6 +1,5 @@
 import React from "react";
 import Typed from "react-typed";
-import "./style.css";
 const Home = () => {
     return (
         <section id="home" className="active">

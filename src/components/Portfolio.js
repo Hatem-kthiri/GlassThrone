@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./style.css";
 const Portfolio = () => {
     // eslint-disable-next-line
     const [portfolioItem, setPortfolioItem] = useState([
