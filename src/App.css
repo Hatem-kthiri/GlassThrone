@@ -315,142 +315,6 @@ body.dark #loader-wrapper .loader-section {
     }
 }
 
-/* PRELOADER
-================================================== */
-/* 
-.page {
-    position: relative;
-    height: 100%;
-}
-
-.preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 111111111;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s all ease;
-    pointer-events: none;
-    backface-visibility: hidden;
-}
-
-.preloader::before,
-.preloader::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    transition: 0.2s linear;
-    transform: translateY(0);
-    pointer-events: none;
-}
-
-.preloader::before {
-    top: 0;
-    bottom: 50%;
-    background: #fff;
-}
-
-.preloader::after {
-    top: 50%;
-    bottom: 0;
-    background: #fff;
-}
-
-.preloader.loaded::before,
-.preloader.loaded::after {
-    transition: 0.4s linear;
-}
-
-.preloader.loaded::before {
-    transform: translateY(-101%);
-}
-
-.preloader.loaded::after {
-    transform: translateY(101%);
-}
-
-.preloader.loaded .preloader-container {
-    opacity: 0;
-    visibility: hidden;
-    transition: 0s;
-}
-
-.preloader-text-center {
-    transition: 0s 0.2s;
-}
-
-.preloader-container {
-    position: absolute;
-    top: 50%;
-    transform: translate3d(0, -50%, 0);
-    left: 0;
-    right: 0;
-    z-index: 10;
-    text-align: center;
-}
-
-.preloader-container h1 {
-    margin: 0;
-    padding: 20px 0;
-    color: #222;
-    font-weight: 700;
-    font-size: 42px;
-}
-
-#progress-line-container {
-    width: 100vw;
-    height: 5px;
-    overflow: hidden;
-    margin: auto;
-}
-
-.progress-line {
-    background: #222;
-    margin-top: 0;
-    margin-left: -100vw;
-    animation-name: progess_animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    width: 100vw;
-    height: 5px;
-    transition: 0.5s;
-}
-
-@keyframes progess_animation {
-    0% {
-        margin-left: -100vw;
-    }
-
-    100% {
-        margin-left: 100vw;
-    }
-}
-
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    opacity: 1;
-}
-
-.animated.infinite {
-    animation-iteration-count: infinite;
-}
-
-.animated.hinge {
-    animation-duration: 2s;
-}
-
-html:not(.lt-ie10) .not-animated {
-    opacity: 0;
-} */
-
 /* [ HEADER ] */
 /*================================================== */
 
@@ -915,8 +779,8 @@ main#main {
         -webkit-transform 0.6s ease 0.6s;
 }
 
-body.fullscreendark #main > section#home {
-    background-image: url("./Assets/img/fullscreendark.jpg");
+body.darkscreen #main > section#home {
+    background-image: url("./Assets/img/darkscreen.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1911,6 +1775,82 @@ ul.social-intro li a:hover i {
     /* .close-project {
         z-index: 1111;
     } */
+}
+@media (max-width: 768px) {
+    body.darkscreen #main > section#home {
+        background-position: initial;
+    }
+    .main-text-container {
+        margin-left: 8vw;
+    }
+    .main-text {
+        text-align: left;
+    }
+    .main-text p {
+        font-size: 18px;
+    }
+    .custom-btn-group .custom-btn-bg {
+        margin-top: 20px;
+    }
+    #showSwitcher {
+        top: 100px !important;
+    }
+    .infos,
+    .leftside {
+        padding: 0 !important;
+    }
+    .personal-info:before {
+        right: 0px;
+    }
+    #portfolio,
+    #about,
+    #contact,
+    #blog {
+        padding: 7rem 1rem !important;
+    }
+    .img-mobile {
+        width: 100%;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .personal-info {
+        padding: 21px 0px;
+        height: 100%;
+        flex-direction: column-reverse;
+        backdrop-filter: initial;
+    }
+    .personal-info h6 {
+        font-size: 14px !important;
+    }
+    .list-2 {
+        padding-left: 14px !important;
+    }
+    .list-1,
+    .list-2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .list-1 li,
+    .list-2 li {
+        width: 50%;
+    }
+    .port-text {
+        font-size: 12px;
+        width: 100%;
+    }
+    .main-title h2 {
+        font-size: 3rem !important;
+    }
+    .main-title h2 .bg-text {
+        font-size: 4rem !important;
+    }
+    .portfolios {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .blog-excerpt,
+    #blog article a {
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {

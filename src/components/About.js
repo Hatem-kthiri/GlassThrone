@@ -15,7 +15,7 @@ const About = () => {
             </p>
             <div className="container infos">
                 <div className="row personal-info">
-                    <div className="">
+                    <div className="img-mobile">
                         <div className="image-container">
                             <img
                                 className="img-fluid d-block"
@@ -24,12 +24,6 @@ const About = () => {
                                 alt=""
                             />
                         </div>
-                        <p className="d-block d-md-none">
-                            I'm{/* */}a Freelance UI/UX Designer and Developer
-                            based in London, England. I strives to build
-                            immersive and beautiful web applications through
-                            carefully crafted code and user-centric design.
-                        </p>
                     </div>
                     <div className="row col-xl-6 col-lg-6 col-md-12">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">

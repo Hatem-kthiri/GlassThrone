@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 // Import Style
 import "./App.css";
 import "./Assets/css/font-awesome.min.css";
@@ -33,13 +32,6 @@ import {
     yellowgreen,
 } from "./Assets/js/skins";
 function App() {
-    // useEffect(() => {
-    //     if (localStorage.getItem("color")) {
-    //         document.getElementsByTagName("style")[3].innerHTML =
-    //             localStorage.getItem("color");
-    //     }
-    // }, []);
-
     return (
         <div className="">
             <div

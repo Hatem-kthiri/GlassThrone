@@ -1,6 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs
+            .sendForm(
+                "service_wbpxiih",
+                "template_oeizloz",
+                form.current,
+                "xbsyR_YhJ2oLp0TsM"
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+        e.target.reset();
+        document.querySelector(".returnmessage").style.display = "block";
+    };
     return (
         <section id="contact" className="">
             <div className="contact-container">
@@ -21,13 +43,17 @@ const Contact = () => {
                                 want to say Hello.. please fill out the form
                                 below and I will reply you shortly.
                             </p>
-                            <form className="contactform">
+                            <form
+                                className="contactform"
+                                ref={form}
+                                onSubmit={sendEmail}
+                            >
                                 <div className="row">
                                     <div className="form-group col-xl-12">
                                         <i className="fa fa-user prefix" />
                                         <input
                                             id="name"
-                                            name="name"
+                                            name="user_name"
                                             type="text"
                                             className="form-control"
                                             placeholder="YOUR NAME"
@@ -39,7 +65,7 @@ const Contact = () => {
                                         <input
                                             id="email"
                                             type="email"
-                                            name="email"
+                                            name="user_email"
                                             className="form-control"
                                             placeholder="YOUR EMAIL"
                                             defaultValue=""

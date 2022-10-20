@@ -42,7 +42,8 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn.btn-secondary:before,
 section#blog .post-date,
 .personal-info:before,
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb,
+.button-animated {
     background-color: #2196f3;
 }
 
