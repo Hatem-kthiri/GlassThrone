@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Blog = () => {
     // eslint-disable-next-line
-    const [blogs, setBlogs] = useState([
+    const blogs = [
         {
             image: "blog-post-1.jpg",
             DayOfPost: "18",
@@ -35,7 +35,7 @@ const Blog = () => {
             description:
                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?",
         },
-    ]);
+    ];
     return (
         <section id="blog" className="">
             <div className="main-title">
@@ -49,9 +49,9 @@ const Blog = () => {
             </p>
             <div className="container">
                 <div className="row">
-                    {blogs.map((blog, index) => {
+                    {blogs.map((blog, i) => {
                         return (
-                            <div className="col-12 col-sm-6" key={index}>
+                            <div className="col-12 col-sm-6" key={i}>
                                 <article>
                                     <figure className="blog-figure">
                                         {/* eslint-disable-next-line */}

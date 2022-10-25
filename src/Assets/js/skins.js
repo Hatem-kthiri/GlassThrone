@@ -42,7 +42,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active ,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
  {
 	background-color: #ff5d56;
 }
@@ -120,7 +120,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
 {
 	background-color: #daa520;
 }
@@ -199,7 +199,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
 {
 	background-color: #72b626;
 }
@@ -278,7 +278,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
 {
 	background-color: #ff00ff;
 }
@@ -358,7 +358,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
 {
 	background-color: #fa5b0f;
 }
@@ -437,7 +437,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
 {
 	background-color: #9acd32;
 }
@@ -518,7 +518,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
 {
 	background-color: #2196F3;
 }
@@ -598,7 +598,7 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn.btn-secondary:before,
 section#blog .post-date,
-.personal-info:before,::-webkit-scrollbar-thumb,.button-animated
+.personal-info:before,::-webkit-scrollbar-thumb,.button-animated,.readmore
  {
     background-color: #ffb400;
 }

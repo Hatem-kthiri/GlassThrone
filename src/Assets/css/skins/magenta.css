@@ -43,7 +43,8 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 section#blog .post-date,
 .personal-info:before,
 ::-webkit-scrollbar-thumb,
-.button-animated {
+.button-animated,
+.readmore {
     background-color: #ff00ff;
 }
 

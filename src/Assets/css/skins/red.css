@@ -43,7 +43,8 @@ body.dark .nav-container > div > ul li.active:not(:last-child):after,
 section#blog .post-date,
 ::-webkit-scrollbar-thumb,
 .personal-info:before,
-.button-animated {
+.button-animated,
+.readmore {
     background-color: #ff5d56;
 }
 .portfolios .portfolio-item .hover-items {

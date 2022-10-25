@@ -21,8 +21,35 @@ const Contact = () => {
                 }
             );
         e.target.reset();
+
         document.querySelector(".returnmessage").style.display = "block";
+        setTimeout(() => {
+            document.querySelector(".returnmessage").style.display = "none";
+        }, 1000);
     };
+    const SocialIcon = [
+        {
+            title: "facebook",
+            iconName: "fa fa-facebook",
+            link: "https://www.facebook.com/",
+        },
+
+        {
+            title: "twitter",
+            iconName: "fa fa-twitter",
+            link: "https://twitter.com/",
+        },
+        {
+            title: "youtube",
+            iconName: "fa fa-youtube",
+            link: "https://www.youtube.com/",
+        },
+        {
+            title: "dribble",
+            iconName: "fa fa-dribbble",
+            link: "https://dribbble.com/",
+        },
+    ];
     return (
         <section id="contact" className="">
             <div className="contact-container">
@@ -143,30 +170,21 @@ const Contact = () => {
                             </div>
                             <div className="social">
                                 <ul className="list-inline social social-intro text-center p-none">
-                                    <li className="facebook">
-                                        {/* eslint-disable-next-line */}
-                                        <a title="Facebook" href="#">
-                                            <i className="fa fa-facebook" />
-                                        </a>
-                                    </li>
-                                    <li className="twitter">
-                                        {/* eslint-disable-next-line */}
-                                        <a title="Twitter" href="#">
-                                            <i className="fa fa-twitter" />
-                                        </a>
-                                    </li>
-                                    <li className="youtube">
-                                        {/* eslint-disable-next-line */}
-                                        <a title="Youtube" href="#">
-                                            <i className="fa fa-youtube" />
-                                        </a>
-                                    </li>
-                                    <li className="dribbble">
-                                        {/* eslint-disable-next-line */}
-                                        <a title="Dribbble" href="#">
-                                            <i className="fa fa-dribbble" />
-                                        </a>
-                                    </li>
+                                    {SocialIcon.map((social, i) => (
+                                        <li key={i}>
+                                            {/* eslint-disable-next-line */}
+                                            <a
+                                                href={social.link}
+                                                title={social.title}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                <i
+                                                    className={social.iconName}
+                                                ></i>
+                                            </a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </div>

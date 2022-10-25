@@ -1,0 +1,323 @@
+.banner .content {
+    background-color: rgba(17, 17, 17, 0.95);
+    padding: 50px 15px 30px;
+    width: 100%;
+}
+.banner .content h2 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+    box-shadow: none;
+}
+.banner h1 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 2px;
+    border: 1px solid #ffb400;
+    padding: 8px 20px;
+}
+.banner h2 {
+    color: #ffffff;
+    font-weight: 400;
+}
+.banner img {
+    padding: 10px;
+    border: 2px solid #555555;
+    margin-bottom: 20px;
+}
+.demo .btn {
+    font-size: 13px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: #82b440;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    max-width: 150px;
+    cursor: pointer !important;
+    padding: 3px 20px;
+}
+.demo .btn:hover {
+    background-color: #ffb400 !important;
+}
+.demo {
+    padding: 175px 0 135px;
+    min-height: 560px;
+    background: #ffffff;
+}
+.demo .text-center {
+    color: #666;
+}
+@media screen and (max-width: 768px) {
+    .demo {
+        padding: 100px 0 60px;
+    }
+}
+h2 {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #363636;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0 20px;
+    letter-spacing: 2px;
+}
+.heading {
+    font-size: 30px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+.anchor {
+    margin-bottom: 40px;
+}
+.footer_copyright {
+    background-color: #222222;
+    padding: 20px;
+}
+.footer_copyright h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+.footer_copyright h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.footer_copyright a,
+.footer_copyright .heart {
+    color: #ffb400;
+    text-decoration: none;
+}
+.footer_copyright a,
+.footer_copyright .heart:hover {
+    text-decoration: underline;
+}
+.footer_copyright a {
+    cursor: pointer !important;
+}
+.bg_container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border: 4px solid #dedede;
+    transition: 0.3s;
+}
+@media screen and (min-width: 1300px) {
+    .bg_container {
+        background: #ddd;
+        min-height: 268px;
+    }
+}
+a {
+    display: block;
+    cursor: pointer !important;
+}
+.demo .content:hover .bg_container {
+    transform: translateY(-5px);
+}
+
+.bg_container img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.go_purchase {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    background-color: #000;
+    padding: 120px 20px;
+    text-align: center;
+}
+.purchase_button {
+    background-color: transparent;
+    border: 1px solid #ffb400;
+    border-radius: 35px;
+    color: #fff;
+    cursor: pointer;
+    cursor: pointer !important;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    outline: none !important;
+    overflow: hidden;
+    padding: 16px 70px 16px 35px;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    z-index: 1;
+}
+.purchase_button:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    background-color: #ffb400;
+    right: 0;
+    top: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    transition: all 0.3s ease-out;
+    z-index: -1;
+}
+.purchase_button:hover:before {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.purchase_button .button-text {
+    color: #fff;
+    position: relative;
+    transition: all 0.3s ease-out;
+    z-index: 2;
+}
+.purchase_button .button-icon {
+    align-items: center;
+    border-radius: 50%;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    background-color: #ffb400;
+    font-size: 19px;
+    height: 55px;
+    justify-content: center;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 55px;
+}
+@media screen and (max-width: 768px) {
+    .go_purchase {
+        padding: 100px 20px 100px;
+    }
+}
+.go_purchase h6 {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.go_purchase h3 {
+    color: #fff;
+    max-width: 600px;
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 35px;
+    display: block;
+    padding: 10px 0 30px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-transform: none;
+}
+@media (max-width: 768px) {
+    .go_purchase h3 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+}
+.go_purchase h3.theme-color {
+    color: #ffb400;
+}
+.go_purchase .button {
+    border: 1px solid #ffb400;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+/** 404 Not Found **/
+.not_found_page h1,
+.not_found_page h2 {
+    font-weight: 900;
+    font-size: 125px;
+    line-height: 1;
+    letter-spacing: 5px;
+    color: #ffb400;
+}
+@media screen and (max-width: 768px) {
+    .not_found_page h1,
+    .not_found_page h2 {
+        font-size: 80px;
+    }
+}
+.not_found_page .page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.not_found_page .bg-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.not_found_page .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.not_found_page .content p {
+    color: #000;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    .not_found_page .content p {
+        margin-bottom: 30px;
+    }
+}
+.not_found_page .content .button {
+    border: 2px solid #ffb400;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not_found_page .content .button:hover {
+    background: #ffb400;
+}
+.not_found_page .content .button:hover a {
+    color: #fff;
+}
+.not_found_page .content .button:hover::before {
+    display: none;
+}
+.not_found_page .content .button a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.4s;
+}

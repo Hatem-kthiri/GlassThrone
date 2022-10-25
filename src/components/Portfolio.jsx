@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 const Portfolio = () => {
     // eslint-disable-next-line
-    const [portfolioItem, setPortfolioItem] = useState([
+    const portfolioItem = [
         {
+            projectName: "Project Source",
             image: "port1.jpg",
             githubLink: "#",
             dribbleLink: "#",
@@ -10,6 +11,7 @@ const Portfolio = () => {
             youtubeLink: "#",
         },
         {
+            projectName: "Project Source",
             image: "port2.jpg",
             githubLink: "#",
             dribbleLink: "#",
@@ -17,6 +19,7 @@ const Portfolio = () => {
             youtubeLink: "#",
         },
         {
+            projectName: "Project Source",
             image: "port3.jpg",
             githubLink: "#",
             dribbleLink: "#",
@@ -24,6 +27,7 @@ const Portfolio = () => {
             youtubeLink: "#",
         },
         {
+            projectName: "Project Source",
             image: "port4.jpg",
             githubLink: "#",
             dribbleLink: "#",
@@ -31,6 +35,7 @@ const Portfolio = () => {
             youtubeLink: "#",
         },
         {
+            projectName: "Project Source",
             image: "port5.jpg",
             githubLink: "#",
             dribbleLink: "#",
@@ -38,6 +43,7 @@ const Portfolio = () => {
             youtubeLink: "#",
         },
         {
+            projectName: "Project Source",
             image: "port6.jpg",
             githubLink: "#",
             dribbleLink: "#",
@@ -45,13 +51,14 @@ const Portfolio = () => {
             youtubeLink: "#",
         },
         {
+            projectName: "Project Source",
             image: "port7.jpg",
             githubLink: "#",
             dribbleLink: "#",
             behanceLink: "#",
             youtubeLink: "#",
         },
-    ]);
+    ];
     return (
         <section className="" id="portfolio">
             <div className="container">
@@ -65,9 +72,9 @@ const Portfolio = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <div className="portfolios">
-                    {portfolioItem.map((item, index) => {
+                    {portfolioItem.map((item, i) => {
                         return (
-                            <div className="portfolio-item" key={index}>
+                            <div className="portfolio-item" key={i}>
                                 <div className="image">
                                     <img
                                         src={require(`../Assets/img/projects/${item.image}`)}
@@ -75,7 +82,7 @@ const Portfolio = () => {
                                     />
                                 </div>
                                 <div className="hover-items">
-                                    <h3>Project Source</h3>
+                                    <h3>{item.projectName}</h3>
                                     <div className="icons">
                                         <a
                                             href={item.githubLink}
