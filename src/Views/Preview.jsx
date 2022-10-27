@@ -100,7 +100,7 @@ const Preview = () => {
                     >
                         <a
                             className="purchase_button"
-                            href="https://themeforest.net/user/k-throne"
+                            href="#"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -116,11 +116,7 @@ const Preview = () => {
                     <h5>
                         &copy; {new Date().getFullYear()} Designed with{" "}
                         <span className="heart">&#10084;</span> by{" "}
-                        <a
-                            href="https://themeforest.net/user/k-throne"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+                        <a href="#" target="_blank" rel="noreferrer">
                             K-Throne.
                         </a>{" "}
                     </h5>
